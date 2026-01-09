@@ -52,6 +52,12 @@ nav .link-parant{
    line-height: 19px;
    border: none;
    margin: 15px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(93, 189, 134);
+
 }
 /* main */
 
@@ -94,6 +100,8 @@ nav .link-parant{
 .text .twobtn{
     margin-bottom:150px;
 }
+
+
 .text .twobtn .btn2 {
     background-color: rgba(70, 145, 101, 1);
     color: rgba(255, 255, 255, 1);
@@ -104,7 +112,11 @@ nav .link-parant{
     border: none;
     border-radius: 5px;
     margin-right: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+.twobtn .btn2:hover{
+     background-color: rgb(93, 189, 134);}
 .text .twobtn .btn3 {
     font-size: 16px;
     font-weight: 400;
@@ -114,7 +126,11 @@ nav .link-parant{
     border: 1px solid rgba(255, 255, 255, 1);
     background: transparent;
     color: rgba(255, 255, 255, 1) ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+.twobtn .btn3:hover{
+     background-color: rgb(93, 189, 134);}
 /* card */
 #card{
     text-align: center;
@@ -248,4 +264,76 @@ nav .link-parant{
     font-weight: 700;
     line-height: 48px;
     font-style: bold;
+    color: rgba(0, 25, 49, 1);
+    padding-bottom: 16px;
+}
+.about-container .heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 16px;
+    color: rgba(98, 115, 130, 1);
+    padding: 0 40px;
+}
+.about-container .heading button{
+   background-color: rgba(70, 145, 101, 1);
+   color: white;
+   border-radius: 4px;
+   padding: 12px 16px;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 19px;
+   border: none;
+   margin: 15px;
+   box-shadow: 0 6px 15px rgba(0,0,0,0.35);
+   cursor: pointer;
+   padding-bottom: 16px;
+   transition: background-color 0.3s ease;
+}
+.heading button:hover{
+     background-color: rgb(93, 189, 134);
+}
+/* footer */
+
+footer{
+    margin-top: 130px;
+    background-color: rgba(0, 25, 49, 1);;
+    padding: 130px 0  30px 0;
+   
+    
+
+}
+.logo .ft-logo{
+    display: flex ;
+    justify-content: space-between;
+    padding: 0px 340px;
+    padding-bottom: 80px;
+}
+.ft-logo .SocialLinks h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 16px;
+
+}
+.SocialLinks a{
+    margin-right: 16px;
+}
+
+hr{
+    width: 65%;
+    align-items: center;
+    margin: auto;
+    color:rgba(229, 231, 235, 1) ;
+    opacity: 0.2;
+}
+.logo .copyright p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgba(250, 250, 250, 1) ;
+    text-align: center;
+    padding-top: 30px;
+
 }
