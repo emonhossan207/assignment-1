@@ -72,7 +72,8 @@ section{
 }
 .text h1 {
     font-size: 72px;
-    padding: 16px 295px;
+    padding: 16px 295px 0px;
+    color: rgba(255, 255, 255, 1) ;
 }
 .colo-green {
     color: rgba(48, 184, 104, 1);
@@ -82,7 +83,9 @@ section{
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    padding: 16px 438px;
+    padding: 16px 0 0 32px;
+    gap: 13px;
+    
 }
 .text .twobtn .btn2 {
     background-color: rgba(70, 145, 101, 1);
@@ -90,7 +93,7 @@ section{
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
-    padding: 12px 16px;
+    padding: 12px 16px ;
     border: none;
     border-radius: 5px;
     margin-right: 15px;
