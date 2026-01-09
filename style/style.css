@@ -12,9 +12,11 @@
 
 /* container */
 .conatiner{
+    width: 80%;
     max-width: 1350px;
     margin: 0 auto ;
-    padding: 24px 0;
+    padding-top: 12px;
+    padding-bottom: 5px;
 /* header   */
 }
 nav{
@@ -52,12 +54,14 @@ nav .link-parant{
    margin: 15px;
 }
 /* main */
-section{
+
+#hero{
    text-align: center;
    background-image: url(../images/assets/hero-bg.png);
-   padding: 115px 180px;
+   padding: 120px 180px;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover ;
+  
 
 }
 .text .onebtn {
@@ -83,9 +87,12 @@ section{
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    padding: 16px 0 0 32px;
-    gap: 13px;
-    
+    padding-top: 16px;
+    padding-bottom: 20px;
+
+}
+.text .twobtn{
+    margin-bottom:150px;
 }
 .text .twobtn .btn2 {
     background-color: rgba(70, 145, 101, 1);
@@ -108,3 +115,72 @@ section{
     background: transparent;
     color: rgba(255, 255, 255, 1) ;
 }
+/* card */
+#card{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#card .card-head h1 {
+    font-size: 48px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 58px;
+    padding-bottom: 16px;
+
+}
+
+#card .card-head p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+    letter-spacing: 0%;
+    padding-bottom: 40px;
+
+}
+
+#card .card-contain{
+    max-width: 1350px;
+    margin: 0 auto ;
+    width: 80%;
+}
+#card .card-contain .card-box{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.card-box .card-img{
+    padding: 40px 34px;
+    width: 320px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);;
+    border-radius: 5px;
+    
+    
+}
+.card-img img{
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom:16px ;
+    background: rgba(249, 85, 85, 1);
+    max-width: 50px;
+    margin-bottom:30px ;
+}
+.card-img h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: rgba(0, 25, 49, 1);
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+}
+.card-img p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+
+}
+   
+
+
